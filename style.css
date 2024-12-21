@@ -8,6 +8,7 @@ html,
 body {
   height: 100%;
   width: 100%;
+  /* background-color: black; */
 }
 /* 
 h1 {
@@ -54,7 +55,7 @@ h1 {
   background-color: crimson;
   border: 2px solid black;
 } */
-
+/* 
 #parent {
   background-color: red;
   height: 200px;
@@ -74,4 +75,22 @@ h1 {
   top: 100%;
   transform: translate(-50%, -50%);
   border-radius: 900px;
+} */
+
+#parent {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  /* align-content: center; */
+  align-items: center;
+  background-color: black;
+}
+
+.child {
+  background-color: gray;
+  height: 100px;
+  width: 100px;
+  border: 2px solid black;
+  /* margin-left: 5px; */
 }
