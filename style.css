@@ -37,7 +37,7 @@ h1 {
 #child:hover {
   background-color: greenyellow;
 } */
-
+/* 
 .box1 {
   height: 100px;
   width: 100px;
@@ -53,4 +53,25 @@ h1 {
   width: 100px;
   background-color: crimson;
   border: 2px solid black;
+} */
+
+#parent {
+  background-color: red;
+  height: 200px;
+  width: 200px;
+  position: relative;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.child {
+  background-color: aqua;
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  left: 50%;
+  top: 100%;
+  transform: translate(-50%, -50%);
+  border-radius: 900px;
 }
