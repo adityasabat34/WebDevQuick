@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: poppins;
 }
 
 html,
@@ -99,4 +100,78 @@ main {
   height: 100%;
   width: 100%;
   background-color: #d5ff40;
+}
+
+nav {
+  width: 100%;
+  /* background-color: aqua; */
+  display: flex;
+  height: 60px;
+  padding: 20px 30px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar {
+  display: flex;
+  gap: 80px;
+  justify-content: space-between;
+  align-items: center;
+  text-decoration-style: none;
+}
+
+nav h2 {
+  font-size: 20px;
+  font-weight: 500;
+}
+nav a {
+  font-size: 15px;
+  text-decoration: none;
+  font-weight: 200;
+  color: black;
+  text-shadow: none;
+}
+section {
+  padding: 30px 20px;
+}
+
+section .hero-text1 {
+  background-color: chartreuse;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.hero-text1 h1 {
+  font-size: 190px;
+  text-transform: uppercase;
+  font-weight: 900;
+  line-height: 300px;
+  display: flex;
+  align-items: flex-start;
+}
+
+/* .hero-text1 .video {
+  height: 80px;
+  width: 340px;
+  background-color: teal;
+  border-radius: 120px;
+  position: relative;
+  top: 80px;
+}
+.video .video2 {
+  position: absolute;
+  height: 70px;
+  width: 100px;
+  background-color: black;
+  border-radius: 120px;
+  left: 5px;
+  top: 5px;
+} */
+
+.hero-text1 .video {
+  height: 80px;
+  width: 350px;
+  background-color: black;
+  border-radius: 100px;
 }
