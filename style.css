@@ -13,7 +13,7 @@ body {
 }
 
 main {
-  height: 100%;
+  /* height: 100%; */
   width: 100%;
   background-color: #d5ff40;
 }
@@ -119,6 +119,65 @@ section .hero-text2 {
   font-size: 17px;
 }
 
+.batches {
+  height: 100px;
+  width: 100%;
+  /* background-color: aquamarine; */
+  padding: 20px 30px;
+  display: flex;
+  align-items: center;
+  /* justify-content: space-between; */
+  gap: 20px;
+}
+
+.tag {
+  border-radius: 100px;
+  border: 2px solid black;
+  padding: 5px;
+  font-weight: 300;
+  width: 270px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.tag i {
+  padding-right: 15px;
+}
+
+.image {
+  height: 500px;
+  width: 90%;
+  padding-right: 100px;
+  margin-left: 5%;
+  /* background-color: aquamarine; */
+  padding: 20px 30px;
+  border-top-left-radius: 100px;
+  border-top-right-radius: 100px;
+  background-image: url(https://media.istockphoto.com/id/1089282134/photo/abstract-3d-black-cubes-background.webp?a=1&b=1&s=612x612&w=0&k=20&c=A7CtDiMVrHeRpNWqgVm0cHr8P6Kw_68WjueKn0SbnDQ=);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  margin-top: 70px;
+}
+
+#routeCircle {
+  height: 150px;
+  width: 150px;
+  border-radius: 100px;
+  background-color: white;
+  position: absolute;
+  right: 5%;
+  top: -15%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid black;
+}
+
+#routeCircle i {
+  font-size: 100px;
+  margin: 5px 0px 5px 0px;
+}
 /* Mobile Styles */
 @media screen and (max-width: 768px) {
   nav {
