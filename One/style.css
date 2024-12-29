@@ -153,6 +153,8 @@ section .hero-text2 {
   padding: 20px 30px;
   border-top-left-radius: 100px;
   border-top-right-radius: 100px;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
   background-image: url(https://media.istockphoto.com/id/1089282134/photo/abstract-3d-black-cubes-background.webp?a=1&b=1&s=612x612&w=0&k=20&c=A7CtDiMVrHeRpNWqgVm0cHr8P6Kw_68WjueKn0SbnDQ=);
   background-position: center;
   background-size: cover;
@@ -178,6 +180,32 @@ section .hero-text2 {
   font-size: 100px;
   margin: 5px 0px 5px 0px;
 }
+
+.middleBar {
+  height: 50px;
+  width: 90%;
+  background-color: black;
+  margin-top: 10px;
+  /* padding: 20px 30px; */
+  margin-left: 5%;
+  background-image: url(https://images.unsplash.com/photo-1703585221767-52bc344f1801?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MXxNOEVMZHZ4ZXBKUXx8ZW58MHx8fHx8);
+  background-position: center;
+  border-radius: 10px;
+}
+
+.bottomimage {
+  height: 500px;
+  width: 90%;
+  background-color: black;
+  margin-left: 5%;
+  margin-top: 10px;
+  border-bottom-right-radius: 100px;
+  border-bottom-left-radius: 100px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  background-image: url(https://media.istockphoto.com/id/1089282134/photo/abstract-3d-black-cubes-background.webp?a=1&b=1&s=612x612&w=0&k=20&c=A7CtDiMVrHeRpNWqgVm0cHr8P6Kw_68WjueKn0SbnDQ=);
+}
+
 /* Mobile Styles */
 @media screen and (max-width: 768px) {
   nav {
