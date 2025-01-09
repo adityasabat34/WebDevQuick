@@ -29,8 +29,8 @@
 //   inner.style.backgroundColor = "royalblue";
 // });
 
-const bulb = document.querySelector(".bulb");
-const btn = document.querySelector(".btn");
+// const bulb = document.querySelector(".bulb");
+// const btn = document.querySelector(".btn");
 // let toggleButton = false;
 
 // btn.addEventListener("click", () => {
@@ -52,12 +52,12 @@ const btn = document.querySelector(".btn");
 //   }
 // });
 
-btn.addEventListener("click", () => {
-  if (btn.innerHTML.trim() === "off") {
-    bulb.style.backgroundColor = "black";
-    btn.innerHTML = "on";
-  } else {
-    bulb.style.backgroundColor = "yellow";
-    btn.innerHTML = "off";
-  }
-});
+// btn.addEventListener("click", () => {
+//   if (btn.innerHTML.trim() === "off") {
+//     bulb.style.backgroundColor = "black";
+//     btn.innerHTML = "on";
+//   } else {
+//     bulb.style.backgroundColor = "yellow";
+//     btn.innerHTML = "off";
+//   }
+// });
