@@ -38,11 +38,12 @@ body {
 }
 
 .elem img {
-  height: 60px;
-  width: 60px;
+  height: 100px;
+  width: 100px;
   border-radius: 50%;
   object-fit: cover;
   object-position: center;
   position: absolute;
   opacity: 0;
+  transition: all linear 0.3s;
 }

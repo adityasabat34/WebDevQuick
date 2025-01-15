@@ -1,20 +1,19 @@
-let allElem = document.querySelector(".elem");
+let allElem = document.querySelectorAll(".elem");
 // console.log(allElem);
-let elemImg = document.querySelector(".elem img");
-// console.log(elemImg);
 
-allElem.addEventListener("mousemove", (e) => {
-  //   console.log(e);
-  elemImg.style.left = e.x + "px";
-  elemImg.style.top = e.y;
-  //   elemImg.style.opacity = 1;
-});
+allElem.forEach((elem) => {
+  //   console.log(elem.childNodes[3]);
+  elem.addEventListener("mouseenter", (e) => {
+    elem.childNodes[3].style.opacity = 1;
+    // elem.childNodes[3].style.top = e.x;
+  });
 
-allElem.addEventListener("mouseleave", (e) => {
-  // console.log()
-  elemImg.style.opacity = 0;
-});
+  elem.addEventListener("mouseleave", (e) => {
+    elem.childNodes[3].style.opacity = 0;
+  });
 
-allElem.addEventListener("mouseenter", (e) => {
-  elemImg.style.opacity = 1;
+  elem.addEventListener("mousemove", (e) => {
+    elem.childNodes[3].style.left = e.x + "px";
+    elem.childNodes[3].style.top = e.y + "px";
+  });
 });
