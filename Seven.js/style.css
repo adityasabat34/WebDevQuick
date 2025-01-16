@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  background-color: #320303c1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#cards {
+  height: 450px;
+  width: 250px;
+  background-color: aliceblue;
+  border-radius: 8px;
+  border: 2px solid black;
+}
+
+#storiyan {
+  height: 70px;
+  width: 100%;
+  /* background-color: yellowgreen; */
+  border-bottom: 2px solid #dadadd;
+  padding: 10px;
+  white-space: nowrap;
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+
+#storiyan::-webkit-scrollbar {
+  display: none;
+}
+.story {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  /* background-color: red; */
+  border: 2px solid red;
+  overflow: hidden;
+  display: inline-block;
+}
+
+.story img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
