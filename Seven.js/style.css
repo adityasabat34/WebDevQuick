@@ -21,6 +21,8 @@ body {
   background-color: aliceblue;
   border-radius: 8px;
   border: 2px solid black;
+  position: relative;
+  /* filter: blur(5px); */
 }
 
 #storiyan {
@@ -52,4 +54,17 @@ body {
   width: 100%;
   object-fit: cover;
   object-position: center;
+}
+
+#view-story {
+  height: 90%;
+  width: 90%;
+  margin-left: 5%;
+  margin-top: 10%;
+  /* padding-left: 10%; */
+  /* background-color: red; */
+  position: absolute;
+  display: none;
+  background-size: cover;
+  border-radius: 8px;
 }

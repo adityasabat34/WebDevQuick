@@ -25,7 +25,7 @@ let arr = [
       "https://images.unsplash.com/photo-1599142296733-1c1f2073e6de?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDZ8fHxlbnwwfHx8fHw%3D",
   },
 ];
-
+let storiyan = document.querySelector("#storiyan");
 let allStories = "";
 arr.forEach((elem, idx) => {
   allStories += `  <div class="story">
@@ -33,4 +33,15 @@ arr.forEach((elem, idx) => {
         </div>`;
 });
 
-document.querySelector("#storiyan").innerHTML = allStories;
+storiyan.innerHTML = allStories;
+
+storiyan.addEventListener("click", (e) => {
+  //   console.log(arr[e.target.id].story);
+  document.querySelector("#view-story").style.display = "block";
+  document.querySelector("#view-story").style.backgroundImage = `url(${
+    arr[e.target.id].story
+  })`;
+  setTimeout(() => {
+    document.querySelector("#view-story").style.display = "none";
+  }, 3000);
+});
